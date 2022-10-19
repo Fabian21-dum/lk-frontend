@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
   return (
     <div className='app'>
       <AuthProvider>
-        <main className='h-[1000px] font-sans leading-relaxed text-slate-900'>{children}</main>
+        <main className='font-sans leading-relaxed text-slate-900'>{children}</main>
       </AuthProvider>
     </div>
   );
