@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // eslint-disable-next-line no-unused-vars, react/prop-types
 export default function Navbar({ isLogin }) {
   return (
-    <nav className='container flex justify-between py-6'>
+    <nav className='container absolute top-0 right-0 left-0 flex justify-between py-6'>
       <div>
         <Link className='text-2xl font-bold' to='/'>
           LOGOS
