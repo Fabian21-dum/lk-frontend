@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // eslint-disable-next-line no-unused-vars, react/prop-types
 export default function Navbar({ isLogin }) {
   return (
-    <nav className='container absolute top-0 right-0 left-0 flex justify-between py-6'>
+    <nav className='container  absolute top-0 right-0 left-0 flex justify-between px-4 py-8'>
       <div>
         <Link className='text-2xl font-bold' to='/'>
           LOGOS
@@ -19,7 +19,7 @@ export default function Navbar({ isLogin }) {
             <Link className='font-bold' to='/register'>
               Register
             </Link>
-            <Link className='rounded-full bg-slate-900 px-6 py-2  font-bold text-slate-50' to='/login'>
+            <Link className='rounded-full bg-slate-900 px-6 py-2 font-bold text-slate-50' to='/login'>
               Log In
             </Link>
           </>
