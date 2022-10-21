@@ -14,13 +14,8 @@ export default function LoginPage() {
             <h1 className='text-2xl font-extrabold'>SELAMAT DATANG</h1>
             <h3 className='text-sm font-medium'>Selamat Datang Kembali Sob.</h3>
           </div>
-<<<<<<< HEAD
-          <div className='mr-auto  ml-auto  '>
-            <img src={loginLogo} alt='login' className='mr-auto ml-auto h-48 md:h-80' />
-=======
           <div className='mx-auto'>
-            <img src={loginLogo} alt='login' className='mx-auto h-48 md:h-80 ' />
->>>>>>> 7510d7fc7ab4b8485d44808e4570c30ef83cf8d8
+            <img src={loginLogo} alt='login' className='mx-auto h-48 md:h-80' />
           </div>
           <div className='mx-auto flex flex-col items-center justify-center'>
             <div className='mb-4 hidden text-center md:block'>
