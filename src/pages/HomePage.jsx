@@ -1,11 +1,11 @@
 import React from 'react';
 import HomeLayout from '../layouts/HomeLayout';
-import HeroImage from '../assets/Hero.svg';
+import HeroImage from '../assets/image/Hero.svg';
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
-import LogoSTMIKWICIDA from '../assets/Logo_STMIK_WICIDA.png';
-import LogoLOKreatif from '../assets/Logo_LO_KREATIF.png';
-import LogoAptisi from '../assets/Logo_APTISI.png';
+import LogoSTMIKWICIDA from '../assets/image/Logo_STMIK_WICIDA.png';
+import LogoLOKreatif from '../assets/image/Logo_LO_KREATIF.png';
+import LogoAptisi from '../assets/image/Logo_APTISI.png';
 
 export default function HomePage() {
   return (
