@@ -2,7 +2,7 @@ import React from 'react';
 import RootLayout from '../layouts/RootLayout';
 import { Link } from 'react-router-dom';
 import registerLogo from '../assets/image/Register.svg';
-import Input from '../components/input';
+import Input from '../components/Input';
 
 export default function RegisterPage() {
   return (

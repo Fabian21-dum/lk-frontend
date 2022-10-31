@@ -7,9 +7,9 @@ import Button from '../components/Button';
 import LogoSTMIKWICIDA from '../assets/image/Logo_STMIK_WICIDA.png';
 import LogoLOKreatif from '../assets/image/Logo_LO_KREATIF.png';
 import LogoAptisi from '../assets/image/Logo_APTISI.png';
+import VectorImage1 from '../assets/image/Vector1.svg';
+import VectorImage2 from '../assets/image/Vector2.svg';
 
-import VectorImage1 from '../assets/Vector1.svg';
-import VectorImage2 from '../assets/Vector2.svg';
 
 export default function HomePage() {
   return (
